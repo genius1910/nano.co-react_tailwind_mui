@@ -2,6 +2,7 @@ import Index from "./layouts";
 import Dashboard from "./pages/dashboard";
 import Technology from "./pages/technology";
 import Mission from "./pages/mission";
+import Careers from "./pages/careers";
 
 const AppRoutes = [
   {
@@ -19,6 +20,10 @@ const AppRoutes = [
       {
         path: "/mission",
         element: <Mission />,
+      },
+      {
+        path: "/careers",
+        element: <Careers />,
       }
     ],
   },
