@@ -1,8 +1,10 @@
 import Index from "./layouts";
+
 import Dashboard from "./pages/dashboard";
 import Technology from "./pages/technology";
 import Mission from "./pages/mission";
 import Careers from "./pages/careers";
+import FAQ from "./pages/faq";
 
 const AppRoutes = [
   {
@@ -24,9 +26,13 @@ const AppRoutes = [
       {
         path: "/careers",
         element: <Careers />,
-      }
+      },
+      {
+        path: "/faq",
+        element: <FAQ />,
+      },
     ],
-  },
-];
+  }
+]
 
 export default AppRoutes;
