@@ -1,6 +1,7 @@
 import Index from "./layouts";
 import Dashboard from "./pages/dashboard";
 import Technology from "./pages/technology";
+import Mission from "./pages/mission";
 
 const AppRoutes = [
   {
@@ -14,6 +15,10 @@ const AppRoutes = [
       {
         path: "/technology",
         element: <Technology />,
+      },
+      {
+        path: "/mission",
+        element: <Mission />,
       }
     ],
   },
