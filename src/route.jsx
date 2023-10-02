@@ -1,9 +1,16 @@
 import Index from "./layouts";
+import Dashboard from "./pages/dashboard";
 
 const AppRoutes = [
   {
     path: "/",
-    element: <Index />
+    element: <Index />,
+    children: [
+      {
+        path: "/",
+        element: <Dashboard />,
+      }
+    ],
   },
 ];
 
