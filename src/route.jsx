@@ -1,5 +1,4 @@
 import Index from "./layouts";
-
 import Dashboard from "./pages/dashboard";
 import Technology from "./pages/technology";
 import Mission from "./pages/mission";
@@ -30,9 +29,9 @@ const AppRoutes = [
       {
         path: "/faq",
         element: <FAQ />,
-      },
+      }
     ],
-  }
-]
+  },
+];
 
 export default AppRoutes;
